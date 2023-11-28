@@ -7,7 +7,7 @@ request.onload = function(){
 
 //By Using REST Countries API We Can Display All The Country Names, Regions, Sub-Regions, Populaton In Console
     for (i=0;i<=result.length-1;i++){
-        console.log(result[i].name.commom); //Name of The Country
+        console.log(result[i].name.common); //Name of The Country
         console.log(result[i].region);      //Region
         console.log(result[i].subregion);   //Sub-Region
         console.log(result[i].population);  //Population
